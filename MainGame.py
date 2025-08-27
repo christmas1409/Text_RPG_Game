@@ -37,3 +37,9 @@ distance = math.sqrt(pow(x2 - x1, 2) + pow(y2 - y1, 2))
 
 print(f"=== Я свободен! ===\n\nРасстояние между мной ({x1}; {y1}) и ближайшим поселением ({x2}; {y2}) составляет "
       f"{round(distance, 2)} точек")
+
+cnt1, amount1 = int(input()), int(input())
+cnt2, amount2 = int(input()), int(input())
+cnt3, amount3 = int(input()), int(input())
+
+print(f"=== Травушки-муравушки ===\n\nОжидаемая прибыль: {max(cnt1 * amount1, cnt2 * amount2, cnt3 * amount3)} медяков")
