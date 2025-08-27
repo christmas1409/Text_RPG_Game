@@ -43,3 +43,8 @@ cnt2, amount2 = int(input()), int(input())
 cnt3, amount3 = int(input()), int(input())
 
 print(f"=== Травушки-муравушки ===\n\nОжидаемая прибыль: {max(cnt1 * amount1, cnt2 * amount2, cnt3 * amount3)} медяков")
+
+gold, silver, copper = int(input()), int(input()), int(input())
+
+print(f"=== Дай грош – не отгребёшь ===\n\nТребуемая сумма: Золотые: {gold}, Серебряные: {silver}, Медные: {copper}\n"
+      f"Средств хватает: {gold_coins >= gold and silver_coins >= silver and copper_coins >= copper}")
